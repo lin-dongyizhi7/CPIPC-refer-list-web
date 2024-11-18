@@ -1,0 +1,21 @@
+/* 默认样式 */
+a {
+    color: blue; /* 你可以选择你喜欢的颜色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+/* 悬停样式 */
+a:hover {
+    color: blue; /* 确保悬停时颜色不变 */
+    text-decoration: underline; /* 可选：悬停时显示下划线 */
+}
+
+/* 活动样式 */
+a:active {
+    color: blue; /* 确保点击时颜色不变 */
+}
+
+/* 访问后样式 */
+a:visited {
+    color: blue; /* 确保访问后颜色不变 */
+}
